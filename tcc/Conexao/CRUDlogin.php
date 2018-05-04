@@ -14,7 +14,7 @@ class CRUDlogin
     public function GetUsuario($id){
         $this->conexao = BDConection::getConexao();
 
-        $sql = 'select * from usuario where id_usuario = '.$id;
+        $sql = "select * from usuario where nome = '".$id."'";
 
         $res = $this->conexao->query($sql);
 

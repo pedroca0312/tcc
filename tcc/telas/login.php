@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<form action="">
+<form action="" method="post">
   <div id="usuario">
 
       <input type="text" name="usuario" placeholder="Usuario" style="width: 200px"> <br><br>
@@ -23,14 +23,14 @@
 
   <div id="entrar">
    
-        <button name="entrar" type="button" class="btn btn-primary btn-lg">Entrar</button> <br> <br>
+        <button name="gravar" type="submit" class="btn btn-primary btn-lg">Entrar</button> <br> <br>
 
 
 
   <div id="cadastro">
 
         Não possui uma conta?
-        <a href="cadastro.php">Cadastre-se</a> <br><br>
+        <a href="../telas/cadastro.php">Cadastre-se</a> <br><br>
         
 
 
