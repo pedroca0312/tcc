@@ -50,3 +50,7 @@ body{
       #cadastro{
         color: white;
       }
+
+      .inputLogin{
+          display: inline;
+      }

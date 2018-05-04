@@ -11,13 +11,13 @@
 <form action="" method="post">
   <div id="usuario">
 
-      <input type="text" name="usuario" placeholder="Usuario" style="width: 200px"> <br><br>
+      <input type="text" class="form-control inputLogin" name="usuario" placeholder="Usuario" style="width: 200px"> <br><br>
 
 
 
   <div id="senha">
 
-        <input class="form-group" type="password" name="senha" placeholder="Senha" style="width: 200px"> <br><br> 
+        <input class="form-control inputLogin" type="password" name="senha" placeholder="Senha" style="width: 200px"> <br><br>
 
 
 

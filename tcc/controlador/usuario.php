@@ -6,7 +6,7 @@ switch ($acao) {
     case 'verifica':
         $crud = new CRUDlogin();
 
-        include '../telas/login.php';
+
         if (isset($_POST['gravar'])) {
             $usuario = $crud->GetUsuario($_POST['usuario']);
             if ($_POST['usuario'] == $usuario->nome and $_POST['senha'] == $usuario->senha) {

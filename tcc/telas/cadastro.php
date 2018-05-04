@@ -11,31 +11,31 @@
 
 	<div id="nome">
 		
-		<input type="text" name="nome" placeholder="Nome Completo" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="text" name="nome" placeholder="Nome Completo" style="width: 200px"> <br> <br>
 
 	</div>
 
 	<div id="usuario">
 		
-		<input type="text" name="usuario" placeholder="Usuario" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="text" name="usuario" placeholder="Usuario" style="width: 200px"> <br> <br>
 	
 	</div>
 
 	<div id="email">
 		
-		<input type="email" name="email" placeholder="Email" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="email" name="email" placeholder="Email" style="width: 200px"> <br> <br>
 	
 	</div>
 
 	<div id="senha">
 		
-		<input type="password" name="nome" placeholder="Senha" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="password" name="nome" placeholder="Senha" style="width: 200px"> <br> <br>
 	
 	</div>
 
 	<div id="confirma_senha">
 		
-		<input type="password" name="confirma_senha" placeholder="Confirmar Senha" style="width: 200px"> <br> <br>
+		<input class="form-control inputLogin" type="password" name="confirma_senha" placeholder="Confirmar Senha" style="width: 200px"> <br> <br>
 	
 	</div>
 
